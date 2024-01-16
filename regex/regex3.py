@@ -10,4 +10,4 @@
 
 
 def is_phoneNumber(text):
-   pattern = re.compile(r'(\d{3}) ')
+   pattern = re.compile(r'(\d{3}) {3}')
