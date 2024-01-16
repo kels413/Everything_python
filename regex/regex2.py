@@ -19,6 +19,7 @@ def match_string(text):
     matches = pattern.findall(text)
     for match in matches:
         print(match,end='')
+    
 
 match_string("A Dog barked loudly cat Dog")
 match_string("The cat is playful. is cat")
