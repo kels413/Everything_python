@@ -8,3 +8,6 @@ import re
 
 def match_string(text):
    pattern = re.compile(r'apple | pie')
+   matches = pattern.findall(text)
+
+   for match in matches
