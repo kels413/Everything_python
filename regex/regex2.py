@@ -15,4 +15,4 @@ import re
 
 def match_string(text):
     pattern = re.compile(r'cat | dog')
-    pattern.search()
+    match = pattern.search(text)

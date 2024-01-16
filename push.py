@@ -9,7 +9,7 @@ def commit_and_push():
         subprocess.run(['git', 'add', '.'])
         
         # Commit changes
-        subprocess.run(['git', 'commit', '-m', 'Automated commit'])
+        subprocess.run(['git', 'commit', '-m', 'update'])
         
         # Push to the default remote branch
         subprocess.run(['git', 'push'])
