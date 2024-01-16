@@ -20,4 +20,4 @@ def is_valid(text):
         print("Weak password {}".format(match.group()))
 
 
-is
+is_valid()
