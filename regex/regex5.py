@@ -10,4 +10,7 @@ def match_string(text):
    pattern = re.compile(r'apple | pie')
    matches = pattern.findall(text)
 
-   for match in matches
+   for match in matches:
+      print(match)
+
+match_string("this is my dog and he loves apple and pie but you can still give hime pinapple")
