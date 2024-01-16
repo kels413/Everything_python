@@ -1,4 +1,5 @@
 #!/usr/local/bin/python3
+import re
 
 
 # Certainly! Here are example strings for the remaining four questions:
@@ -13,4 +14,4 @@
 # "Both Cat and Dog are pets."
 
 def match_string(text):
-    
+    pattern = re.compile(r'')
