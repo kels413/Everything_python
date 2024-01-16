@@ -5,7 +5,7 @@ import re
 
 # Example strings:
 
-# "(123) 456-7890"
+#
 # "Phone: (987) 654-3210"
 # "Invalid: 555-1234"
 
@@ -16,3 +16,5 @@ def is_phoneNumber(text):
 
    if match:
       print("found {}".format(match.group))
+    
+is_phoneNumber()
