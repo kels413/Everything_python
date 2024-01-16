@@ -9,4 +9,5 @@
 # "SecurePa55"
 # "weakpassword"
 
-def is_valid
+def is_valid(text):
+    pass
