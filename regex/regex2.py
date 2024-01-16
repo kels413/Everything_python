@@ -15,7 +15,7 @@ import re
 
 def match_string(text):
     pattern = re.compile(r'cat | Dog')
-    match = pattern.search(text)
+    match = pattern.search(text, I)
     if match:
         print(match.group())
 
