@@ -11,4 +11,4 @@ import re
 # "weakpassword"
 
 def is_valid(text):
-    pattern = re.compile('')
+    pattern = re.compile('[A]')
