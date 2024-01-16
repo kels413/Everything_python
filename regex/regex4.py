@@ -12,7 +12,7 @@ import re
 
 def is_valid(text):
     pattern = re.compile(r'[A-Za-z][0-9]')
-    match = pattern.search(text)
+    match = pattern.findall(text)
 
     if match:
         print("strong password {}".format(match.group()))
