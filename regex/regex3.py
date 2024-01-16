@@ -15,6 +15,6 @@ def is_phoneNumbers(text):
      print("found {}".format(match.group()))
     
 is_phoneNumbers("(123) 456-7890")
-is_phoneNumber("Phone: (987) 654-3210")
-is_phoneNumber("Invalid: 555-1234")
+# is_phoneNumber("Phone: (987) 654-3210")
+# is_phoneNumber("Invalid: 555-1234")
 print("hello world")
