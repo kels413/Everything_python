@@ -16,3 +16,5 @@ import re
 def match_string(text):
     pattern = re.compile(r'cat | dog')
     match = pattern.search(text)
+    if match:
+        print()
