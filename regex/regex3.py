@@ -8,7 +8,7 @@ import re
 # "Phone: (987) 654-3210"
 # "Invalid: 555-1234"
 
-def is_phoneNumbers(text):
+def is_phoneNumber(text):
     pattern = re.compile(r'(\(\d{3}\)) \d{3}-\d{4}')
     match = pattern.search(text)
     if match:
@@ -17,7 +17,7 @@ def is_phoneNumbers(text):
         print("not found")
   
     
-is_phoneNumbers("(123) 456-7890")
+is_phoneNumber("(123) 456-7890")
 is_phoneNumber("Phone: (987) 654-3210")
 is_phoneNumber("Invalid: 555-1234")
 print("hello world")
