@@ -22,3 +22,4 @@ def is_valid(text):
 
 is_valid("Passw0rd")
 is_valid("SecurePa55")
+is_valid()
