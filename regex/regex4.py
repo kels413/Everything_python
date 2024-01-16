@@ -15,4 +15,4 @@ def is_valid(text):
     match = pattern.search(text)
 
     if match:
-        print("strong password".format())
+        print("strong password".format(match.group()))
