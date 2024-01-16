@@ -19,6 +19,8 @@ def match_string(text):
     match = pattern.search(text)
     if match:
         print(match.group())
+    else:
+        
 
 match_string("A Dog barked loudly cat Dog is a Cat")
 match_string("The cat is playful. is cat")
