@@ -37,7 +37,7 @@ we have to do something like this
 def find_number(number):
     # phone_regex2 = re.compile(r'(\(\d{3}\))-(\d{3}-\d{4})')
     # phone_regex = re.compile(r'(\(\d\d\d\))-(\d\d\d-\d\d\d\d)')
-    pattern = re.compile(r'(\(\d{3}\))-?(\d{6}-\d{4})')
+    pattern = re.compile(r'((\d{3}\))-?(\d{6}-\d{4})')
     found = pattern.search(number)
     if found:
         # mo , ma = found.groups()
@@ -49,6 +49,7 @@ find_number("I'm going somewhere tonight by the  (415)-555-4242")
 find_number("I'm going somewhere tonight by the  415555-4242")
 
 # batwoman or batman or batman123?
+
 
 
 # if phone_regex.search("moshi is 415-555-4243 a boy "):
