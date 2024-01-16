@@ -13,6 +13,7 @@ import re
 # "A Dog barked loudly."
 # "Both Cat and Dog are pets."
 
+
 def match_string(text):
     pattern = re.compile(r'cat | dog')
     match = pattern.search(text, IGNORECase)
