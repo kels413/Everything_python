@@ -13,4 +13,4 @@ def match_string(text):
    for match in matches:
       print(match)
 
-match_string("this is my dog and he loves  and pie but you can still give hime pin apple")
+match_string("this is my dog and he loves apple  and pie but you can still give hime pin apple pie")
