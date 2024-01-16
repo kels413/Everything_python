@@ -20,7 +20,7 @@ def match_string(text):
     for match in matches:
         print(match)
 
-match_string("A Dog barked loudly.")
+match_string("A Dog barked loudly")
 
 # match_string("The cat is playful. is cat")
 # match_string("Both Cat and Dog are pets.")
