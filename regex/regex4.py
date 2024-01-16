@@ -8,3 +8,5 @@
 # "Passw0rd"
 # "SecurePa55"
 # "weakpassword"
+
+def isva
