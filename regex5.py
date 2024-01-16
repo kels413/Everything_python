@@ -1,4 +1,5 @@
 #!/usr/local/bin/python3
+import re
 
 # Develop a regular expression pattern that
 # matches a string containing any number of repetitions of 
@@ -6,4 +7,4 @@
 
 
 def match_string(text):
-    pass
+   pattern = re.compile(r'')
