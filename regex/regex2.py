@@ -20,7 +20,7 @@ def match_string(text):
     if match:
         print(match.group())
     else:
-        print()
+        print("Not Found")
 
 match_string("A Dog barked loudly cat Dog is a Cat")
 match_string("The cat is playful. is cat")
