@@ -16,7 +16,7 @@ import re
 
 def match_string(text):
     pattern = re.compile(r'cat|dog')
-    match = pattern.findall(text, re.IGNORECASE)
+    matches = pattern.findall(text, re.IGNORECASE)
     for  match:
         print(match)
 
