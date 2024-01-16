@@ -14,7 +14,7 @@ import re
 # "Both Cat and Dog are pets."
 
 def match_string(text):
-    pattern = re.compile(r'cat | Dog')
+    pattern = re.compile(r'cat | dog')
     match = pattern.search(text, IGNORE)
     if match:
         print(match.group())
