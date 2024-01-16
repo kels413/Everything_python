@@ -18,7 +18,7 @@ def match_string(text):
     pattern = re.compile(r'cat | dog', re.IGNORECASE)
     match = pattern.search(text)
     if match:
-        print(match.group(1))
+        print(match.group())
 
 match_string("A Dog barked loudly cat Dog")
 match_string("The cat is playful. is cat")
