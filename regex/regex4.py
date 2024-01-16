@@ -10,4 +10,4 @@
 # "weakpassword"
 
 def is_valid(text):
-    pattern = 
+    pattern = re.compile()
