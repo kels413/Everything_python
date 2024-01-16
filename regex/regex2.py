@@ -15,12 +15,12 @@ import re
 
 
 def match_string(text):
-    pattern = re.compile(r'Cat|og')
+    pattern = re.compile(r'Cat|Dog')
     match = pattern.search(text, re.IGNORECASE)
     if match:
         print(match.group())
 
-# match_string("A Dog barked loudly.")
+match_string("A Dog barked loudly.")
 match_string("The cat is playful.")
 match_string("Both Cat and Dog are pets.")
 
