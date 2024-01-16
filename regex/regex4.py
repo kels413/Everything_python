@@ -17,4 +17,4 @@ def is_valid(text):
     if match:
         print("strong password {}".format(match.group()))
     else:
-        print("Weak password {}")
+        print("Weak password {}".format(match.group()))
