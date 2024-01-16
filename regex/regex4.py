@@ -12,4 +12,4 @@ import re
 
 def is_valid(text):
     pattern = re.compile('[A-Za-z][0-9]')
-    match = mat
+    match = match
