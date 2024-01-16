@@ -17,7 +17,7 @@ import re
 def match_string(text):
     pattern = re.compile(r'cat|dog', re.IGNORECASE)
     matches = pattern.findall(text)
-    if matches
+    if matches:
         print(matches)
 
 match_string("A Dog barked loudly cat")
