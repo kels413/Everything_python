@@ -7,4 +7,4 @@ import re
 
 
 def match_string(text):
-   pattern = re.compile(r'')
+   pattern = re.compile(r'apple | pie')
