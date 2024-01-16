@@ -11,7 +11,7 @@ import re
 # "weakpassword"
 
 def is_valid(text):
-    pattern = re.compile('[A-Za-z][0-9]')
+    pattern = re.compile(r'[A-Za-z][0-9]')
     match = pattern.search(text)
 
     if match:
