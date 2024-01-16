@@ -21,3 +21,4 @@ def match_string(text):
 
 match_string("The cat is playful.")
 match_string("A Dog barked loudly.")
+match_string("Both Cat and Dog are pets.")
