@@ -18,7 +18,7 @@ def match_string(text):
     pattern = re.compile(r'cat | dog', re.IGNORECASE)
     match = pattern.search(text)
     if match:
-        print("found {}"match.group())
+        print("found {}".format(match.group()))
     else:
         print("Not Found")
 
