@@ -21,4 +21,4 @@ def is_valid(text):
 
 
 is_valid("Passw0rd")
-is_valid()
+is_valid("SecurePa55")
