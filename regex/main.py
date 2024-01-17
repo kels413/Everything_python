@@ -57,9 +57,9 @@ import pydoc
 # # else:
 # #     print("phone number not found")
 
-"""this is the module"""
 # main_script.py
 
+"""this is the module"""
 import kelly
 
 print(globals())
