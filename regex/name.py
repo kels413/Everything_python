@@ -1,7 +1,8 @@
 #!/usr/local/bin/python3
-"""doc strings for this input"""
-# print(globals())
-# print(__name__)
+# name.py
 
 def hello():
-    print("hello world")
+    print("Hello from the module!")
+
+print(f"In the module, __name__ is {__name__}")
+
