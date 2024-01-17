@@ -60,3 +60,5 @@
 
 
 import name
+
+print(globals())
