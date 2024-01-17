@@ -63,5 +63,5 @@ import pydoc
 import kelly
 
 print(globals())
-if.hello()
+kelly.hello()
 print(f"In the main script, __name__ is {__name__}")
