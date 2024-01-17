@@ -66,6 +66,7 @@ import kelly
 kelly.hello()
 print(f"In the main script, __name__ is {__name__}")
 answer = globals()
-for ke
+for key, value in answer.items():
+    print()
 storage = answer.
 print(answer)
