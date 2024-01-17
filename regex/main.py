@@ -60,7 +60,7 @@ import pydoc
 """this is the module"""
 # main_script.py
 
-import regex.if as if
+# import regex.if as if
 
 print(globals())
 if.hello()
