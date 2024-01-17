@@ -62,7 +62,7 @@ import pydoc
 
 import kelly
 
-print(globals())
+# print(globals())
 kelly.hello()
 print(f"In the main script, __name__ is {__name__}")
 answer = globals()['kelly']
