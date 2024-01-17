@@ -6,3 +6,7 @@
 
 # print(f"In main module, __name__ is {__name__}")
 
+
+for key, value in globals().copy().items():
+    # if key.startswith('__'):
+    print(key, value)
