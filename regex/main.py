@@ -66,7 +66,7 @@ import kelly
 kelly.hello()
 print(f"In the main script, __name__ is {__name__}")
 # answer = globals()
-for key, value in globals().copy.items()
+for key, value in globals().copy().items():
     # if key.startswith('__'):
     print(key, value)
 
