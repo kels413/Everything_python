@@ -65,3 +65,4 @@ import kelly
 print(globals())
 kelly.hello()
 print(f"In the main script, __name__ is {__name__}")
+print
