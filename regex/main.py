@@ -61,4 +61,4 @@ import pydoc
 
 
 import name
-print(globals())
+# print(globals())
