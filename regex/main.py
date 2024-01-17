@@ -60,5 +60,6 @@ import pydoc
 """this is the module"""
 
 
-import name
+# import name
 # print(globals())
+print(__name__)
