@@ -61,6 +61,6 @@ import pydoc
 
 
 import name
-# print(globals())
+print(globals())
 name.hello()
 print(__name__)
