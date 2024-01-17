@@ -11,5 +11,5 @@ print(__file__)
 
 for key, value in globals().copy().items():
     # if key.startswith('__'):
-    # print(key, value)
+    print(key, value)
     pass
