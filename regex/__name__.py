@@ -1,4 +1,4 @@
 #!/usr/local/bin/python3
 """doc strings for this input"""
 print(globals())
-help(__name__)
+print(help(__name__))
