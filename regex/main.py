@@ -62,4 +62,5 @@ import pydoc
 
 import name
 # print(globals())
+name.hello()
 print(__name__)
