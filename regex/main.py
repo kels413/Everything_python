@@ -67,6 +67,6 @@ kelly.hello()
 print(f"In the main script, __name__ is {__name__}")
 # answer = globals()
 for key, value in globals().items():
-    if ke
+    if key.startswith('')
     print(key, value)
 
