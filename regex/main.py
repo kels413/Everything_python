@@ -1,6 +1,6 @@
-"""this is the module"""
 
 #!/usr/local/bin/python3
+"""this is the module"""
 # import re
 # """
 # to match this pattern (415-555-4242) without regex
