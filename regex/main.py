@@ -59,7 +59,6 @@ import pydoc
 
 # main_script.py
 
-"""this is the module"""
 import kelly
 
 print(globals())
