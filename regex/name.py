@@ -3,4 +3,5 @@
 # print(globals())
 # print(__name__)
 
-def hello()
+def hello():
+    print("hello world")
