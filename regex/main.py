@@ -62,6 +62,6 @@ import pydoc
 
 import name
 
-print(globals())
+# print(globals())
 name.hello()
 print(f"In the main script, __name__ is {__name__}")
