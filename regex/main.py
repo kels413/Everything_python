@@ -63,5 +63,5 @@ import pydoc
 # import regex.if as if
 
 print(globals())
-if.hello()
+# if.hello()
 print(f"In the main script, __name__ is {__name__}")
