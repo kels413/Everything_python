@@ -60,8 +60,8 @@ import pydoc
 """this is the module"""
 # main_script.py
 
-import name
+import regex.if as if
 
 print(globals())
-name.hello()
+if.hello()
 print(f"In the main script, __name__ is {__name__}")
