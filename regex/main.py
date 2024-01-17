@@ -58,9 +58,10 @@ import pydoc
 # #     print("phone number not found")
 
 """this is the module"""
-
+# main_script.py
 
 import name
+
 print(globals())
 name.hello()
-print(__name__)
+print(f"In the main script, __name__ is {__name__}")
