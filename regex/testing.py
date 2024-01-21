@@ -6,7 +6,7 @@ def hello():
 
 for k, v in globals().copy().items():
     if k == '__name__':
-        global = 'kelly'
+        globals[k] = 'kelly'
         print(k, v)
 
 if __name__ == "__main__":
