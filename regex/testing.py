@@ -30,4 +30,4 @@ num = 5.10
 print(num)
 num = "ls"
 print(num)
-num = 
+num = [""]
