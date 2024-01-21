@@ -20,5 +20,7 @@ num2 = 0
 
 sum = num / num2
 
+print(sum)
+
 if __name__ == "__main__":
     hello()
