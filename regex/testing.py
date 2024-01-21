@@ -28,5 +28,5 @@ num = 5
 print(num)
 num = 5.10
 print(num)
-num = 10
+num = "ls"
 print(num)
