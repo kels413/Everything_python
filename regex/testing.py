@@ -15,7 +15,8 @@ for index, name in enumerate(names):
    print(name)
 
 
-num 
+num = 5
+
 
 if __name__ == "__main__":
     hello()
