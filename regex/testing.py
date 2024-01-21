@@ -2,4 +2,7 @@
 
 def hello():
     print("hello world")
-    
+
+
+
+if __name__ == ""
