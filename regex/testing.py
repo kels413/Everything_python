@@ -8,7 +8,7 @@ for k, v in globals().copy().items():
         print(k, v)
 
 
-
+print("this is just for testing ")
 
 if __name__ == "__main__":
     hello()
