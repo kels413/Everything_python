@@ -18,7 +18,7 @@ for index, name in enumerate(names):
 num = 5
 num2 = 0
 
-sum = 5
+sum = num / num2
 
 if __name__ == "__main__":
     hello()
