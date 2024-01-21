@@ -13,7 +13,7 @@ print("this is for testing the globals dictionary")
 lists = ["kelly", "okoye", "sinner", "emma"];
 
 for i in lists:
-     print(i)
+     print(lists[i])
 
 if __name__ == "__main__":
     hello()
