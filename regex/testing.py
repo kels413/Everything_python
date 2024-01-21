@@ -11,7 +11,7 @@ for k, v in globals().copy().items():
 print("this is for testing the globals dictionary")
 
 
-
+for i in range
 
 if __name__ == "__main__":
     hello()
