@@ -4,7 +4,7 @@ def hello():
     print("hello world")
 
 
-for k, v in globals().items():
+for k, v in globals()..items():
     print(k, v)
 
 if __name__ == "__main__":
