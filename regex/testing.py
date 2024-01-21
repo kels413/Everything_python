@@ -9,11 +9,11 @@ for k, v in globals().copy().items():
 
 
 print("this is for testing the globals dictionary")
+names = ["kelly", "okoye", "sinner", "emma"]
 
-lists = ["kelly", "okoye", "sinner", "emma"];
+for index, name in enumerate(names):
+    print(f"Element at index {index}: {name}")
 
-for i in lists:
-     print(lists[i])
 
 if __name__ == "__main__":
     hello()
