@@ -10,5 +10,8 @@ for k, v in globals().copy().items():
 
 print("this is for testing the globals dictionary")
 
+
+
+
 if __name__ == "__main__":
     hello()
