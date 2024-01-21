@@ -30,4 +30,5 @@ num = 5.10
 print(num)
 num = "ls"
 print(num)
-num = ["list", "kelly", ""]
+num = ["list", "kelly", "sinner"]
+for 
