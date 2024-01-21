@@ -10,7 +10,7 @@ for k, v in globals().copy().items():
 
 print("this is for testing the globals dictionary")
 
-lists = ["kelly", "okoye", ""]
+lists = ["kelly", "okoye", "sinner", ""]
 
 for i in range(0, 10):
      print(i)
