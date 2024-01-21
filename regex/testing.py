@@ -10,6 +10,7 @@ for k, v in globals().copy().items():
 
 print("this is for testing the globals dictionary")
 
+lists = 
 
 for i in range(0, 10):
      print(i)
