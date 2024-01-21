@@ -31,4 +31,5 @@ print(num)
 num = "ls"
 print(num)
 num = ["list", "kelly", "sinner"]
-for n
+for n in num:
+    print(n)
