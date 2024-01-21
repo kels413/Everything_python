@@ -24,3 +24,6 @@
 # if __name__ == "__main__":
 #     hello()
 
+num = 5
+print(num)
+num = 
