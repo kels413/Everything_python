@@ -14,7 +14,7 @@ int main(void)
         /* code */
 
 
-        printf("sum is %d", sum += i);
+        printf("sum is %d\n", sum += array[i]);
     }
     
 
