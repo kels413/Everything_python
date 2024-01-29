@@ -13,6 +13,7 @@ def list_sum(lists = []):
     
 
 total = list_sum("ikjoijn")
+# total = list_sum([1,2,3,4,5])
 print(f"The Total is {total}")
 
 
