@@ -17,6 +17,9 @@ Create a function that takes a list of numbers as input and returns the sum of a
 # print(f"The Total is {total}")
 
 
+# ANOTHER WAY OF SOLVING SAME PROBLEM (TIME EFFICIENCY)
 
 
-
+def lst_sum(lst=None):
+    if lst is None or  not isinstance(lst, list):
+        raise Exception
