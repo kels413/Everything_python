@@ -8,8 +8,8 @@ def list_sum(lists = []):
         sum += i
     return sum
     
-    
-total = list_sum([1,2,3,4,5])
+
+total = list_sum()
 print(f"The Total is {total}")
 
 
