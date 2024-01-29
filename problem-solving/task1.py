@@ -5,3 +5,6 @@ Create a function that takes a list of numbers as input and returns the sum of a
 def list_sum(lists = []):
     for i in lists:
         print(f"sum is {i+}")
+
+
+list_sum([1,2,3,4,5])
