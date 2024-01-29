@@ -4,4 +4,8 @@ Create a function that takes a list of numbers as input and returns the sum of a
 
 def list_sum(lists = []):
     try:
-        if not isinstance(lists)
+        if not isinstance(lists, list):
+            print("Not a valid input")
+        else:
+            pass
+    except:
