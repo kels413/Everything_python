@@ -6,9 +6,10 @@ def list_sum(lists = []):
     sum = 0
     for i in lists:
         sum += i
-    print(f"sum of the list is == {sum}")
-
-
-# list_sum([1,2,3,4,5])
+    return sum
+    
+    
+total = list_sum([1,2,3,4,5])
+print(f"The Total is {total}")
 
 
