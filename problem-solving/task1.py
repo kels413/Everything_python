@@ -23,7 +23,13 @@ Create a function that takes a list of numbers as input and returns the sum of a
 def lst_sum(lst=None):
     if lst is None or  not isinstance(lst, list):
         raise ValueError("input must be a list")
-    
+    return sum(lst)
 
-Total = lst_sum([1,2,4,5,5])
-print(To)
+Total = lst_sum([1,2,3,4,5])
+print(f"this is the Total {Total}")
+
+
+names = [4,4,4,4,4]
+total = sum
+
+
