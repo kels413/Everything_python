@@ -20,20 +20,15 @@ Create a function that takes a list of numbers as input and returns the sum of a
 # ANOTHER WAY OF SOLVING SAME PROBLEM (TIME EFFICIENCY)
 
 #you see that this one is faster right ?? cause it takes just a
-step to complete the sum of a list regardless of the number of element
+#step to complete the sum of a list regardless of the number of element
 
 def lst_sum(lst=None):
     if lst is None or not isinstance(lst, list):
         raise ValueError("input must be a list")
-    return sum(lst)
+    return sum(lst) # call the python builtin sum method
 
-Total = lst_sum([1,2,3,4,5])
-print(f"this is the Total {Total}")
-
-
-names = [4,4,4,4,4]
-total = sum(names)
-
-print(total)
+# total = lst_sum([1,2,3,4,5])
+# total = list_sum("ikjoijn")
+print(f"this is the Total {total}")
 
 
