@@ -28,7 +28,10 @@ def lst_sum(lst=None):
     return sum(lst) # call the python builtin sum method
 
 # total = lst_sum([1,2,3,4,5])
-# total = list_sum("ikjoijn")
-print(f"this is the Total {total}")
+try:
+    total = lst_sum("ikjoijn")
+    print(f"this is the Total {total}")
+except Exception as e:
+    pass
 
 
