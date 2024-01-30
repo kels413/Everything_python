@@ -31,7 +31,7 @@ def lst_sum(lst=None):
 try:
     total = lst_sum("ikjoijn")
     print(f"this is the Total {total}")
-except Exception as e:
-    pass
+except ValueError as e:
+   print(f"error: {e}")
 
 
