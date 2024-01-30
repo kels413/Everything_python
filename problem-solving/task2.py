@@ -5,5 +5,7 @@ Write a program that reverses a given list. For example, if the input is [1, 2, 
 
 names = [1,2,3,4,5]
 
-names.reverse()
-print(names)
+pop_item = names.pop()
+print(pop_item)
+# names.reverse()
+# print(names)
