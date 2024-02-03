@@ -4,17 +4,16 @@ Write a program that reverses a given list. For example, if the input is [1, 2, 
 """
 
 def reverse_list(lst=None):
-    lst = []
-    reverse_lst = []
+    reversed_lst = []
+    for i in reversed(lst):
+        reversed_lst.append(i)
+        print(i)
+    return reversed_lst
+      
 
-    for i in lst:
-        popd_lst = lst.pop()
-        reverse_list.append(popd_lst)
-    return popd_lst
 
-
-reverse_list([1,2,3,4,5])
-print(reverse_list)
+content = reverse_list([1,2,3,4,5])
+print(content)
 
 
 
