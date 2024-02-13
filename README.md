@@ -1,7 +1,4 @@
-# Everything_python     
-
-
-
+# Everything_python
 
 
 
