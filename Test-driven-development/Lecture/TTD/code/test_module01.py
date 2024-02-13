@@ -13,6 +13,14 @@ class TestClass01:
 
 
 
+def multiply(a, b):
+    """
+    >>> multiply(5,5)
+    25
+    >>> multiply(10,10)
+    100
+    """
+    return a * b
 
 
 
