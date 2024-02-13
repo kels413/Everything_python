@@ -1,11 +1,12 @@
 # test_module03.txt
->>> from test_module01 import multiply
 
 """
+>>> from test_module01 import multiply
 >>> multiply(5, 5)
 25
 >>> multiply(10, 10)
 100
->>> multiply('a', 'b')
-'ab'
+>>> multiply(4, 4)
+16
+
 """
