@@ -14,15 +14,7 @@ class TestClass01:
 
 
 def multiply(a, b):
-    """
-    >>> multiply(5,5)
-    10
-    >>> multiply(10,10)
-    20
-    >>> multiply('a', 'b')
-    'ab'
-    """
-    return a + b
+    return a * b
 
 
 
