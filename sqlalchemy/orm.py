@@ -8,13 +8,17 @@ steps:
     6. call the declarative class (Base) and create all Table.
 """
 
-import sqlalchemy
+from sys import argv
 from sqlalchemy import create_engine, Column, String, Integer
 from sqlalchemy.ext.declarative import declarative_base
 
 # create connection
-#'mysql+mysqlconnector://username:password@host:port/database'
-engine = create_engine('mysql//root:31006569@localhost:3306/hbtn_0e_0_usa')
+# 'mysql://username:password@host:port/database'
+# engine = create_engine('mysql://root:31006569@localhost:3306/hbtn_0e_0_usa')
+engine = create_engine('mysql://{}:{}@localhost:3306/{}'.format(argv[1], argv[2], argv[3]))
 print(engine)
+
+
+
 
 
