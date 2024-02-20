@@ -17,6 +17,11 @@ from sqlalchemy.ext.declarative import declarative_base
 # engine = create_engine('mysql://root:31006569@localhost:3306/hbtn_0e_0_usa')
 engine = create_engine('mysql://{}:{}@localhost:3306/{}'
                        .format(argv[1], argv[2], argv[3]), echo=True, pool_pre_ping=True)
+
+# create declarative base class instance (Base)
+
+Base = declarative_base()
+print(Base)
 print(engine)
 
 
