@@ -8,19 +8,26 @@ CREATE TABLE IF NOT EXISTS example_table (
     name VARCHAR(255)
 )
 """
-
-delete_table = """DROP TABLE example_table
+insert_value = """
+    INSERT INTO TABLE IF EXISTS example_table (id,name)VALUES(1, 1),
+                                                (2,'stitch'),
+                                                (3, 'kee kay), 
+                                                (4, 'pas onye ego);
 """
+
+
+# delete_table = """DROP TABLE example_table
+# """
 show_states = """
 SELECT * FROM states
 """
 create_table_sql = text(create_table_query)
-del_table = text(delete_table)
+insert = text(insert_value)
 show_state = text(show_states)
 
 # Execute the SQL command to create the table
 connection.execute(create_table_sql)
-connection.execute(del_table)
+connection.execute(insert)
 result = connection.execute(show_state)
 
 
