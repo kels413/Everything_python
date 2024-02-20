@@ -14,7 +14,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 # create connection
 #'mysql+mysqlconnector://username:password@host:port/database'
-engine = create_engine('mysql+mysqlconnector://root:31006569@localhost:3306/hbtn_0e_0_usa')
+engine = create_engine('mysql//root:31006569@localhost:3306/hbtn_0e_0_usa')
 print(engine)
 
 
