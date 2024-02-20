@@ -15,7 +15,8 @@ from sqlalchemy.ext.declarative import declarative_base
 # create connection
 # 'mysql://username:password@host:port/database'
 # engine = create_engine('mysql://root:31006569@localhost:3306/hbtn_0e_0_usa')
-engine = create_engine('mysql://{}:{}@localhost:3306/{}'.format(argv[1], argv[2], argv[3]))
+engine = create_engine('mysql://{}:{}@localhost:3306/{}'
+                       .format(argv[1], argv[2], argv[3]), echo=True, pool_pre_ping=True)
 print(engine)
 
 
