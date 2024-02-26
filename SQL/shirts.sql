@@ -11,7 +11,7 @@ CREATE TABLE shirts (
   shirt_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   article VARCHAR(20) NOT NULL,
   color VARCHAR(20) NOT NULL,
-  shirt_size VARCHAR(1) NOT NULL,
+  shirt_size VARCHAR(2) NOT NULL,
   last_worn INT NOT NULL
 );
 
@@ -57,3 +57,6 @@ SET last_worn = 0
 WHERE last_worn = 15
 
 -- update all white shirt size
+UPDATE shirts
+SET shirt_size = 'x' AND color = 'off white'
+WHERE color = 'white'
