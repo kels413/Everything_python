@@ -30,6 +30,7 @@ VALUES
 
 -- SELECT ALL DATABASE
 
-SELECT * FROM shirts
+SELECT * FROM shirts;
 
 -- insert using a single step
+INSERT INTO shirts(article, color, shirt_size, last_worn) VALUES('polo-shirt', 'purple', 'M', 50);
