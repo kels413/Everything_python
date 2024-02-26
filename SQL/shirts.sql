@@ -39,3 +39,9 @@ INSERT INTO shirts(article, color, shirt_size, last_worn) VALUES('polo-shirt', '
 
 SELECT article, color
 From shirts
+
+-- SELECT ALL MEDUIM SHIRTS BUH ONLY THE ID SHOULD BE PRINTED OUT
+
+SELECT shirt_id
+FROM shirts
+WHERE shirt_size = 'M'
