@@ -49,3 +49,4 @@ WHERE shirt_size = 'M';
 UPDATE shirts
 SET shirt_size = 'L'
 WHERE article = 'Polo shirt';
+
