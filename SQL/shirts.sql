@@ -58,5 +58,5 @@ WHERE last_worn = 15
 
 -- update all white shirt size
 UPDATE shirts
-SET shirt_size = 'x' AND color = 'off white'
+SET shirt_size = 'x', color = 'off white'
 WHERE color = 'white'
