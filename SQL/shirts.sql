@@ -10,7 +10,12 @@ USE shirts_db;
 CREATE TABLE IF NOT EXISTS shirts
 (
     shirts_id INT NOT NULL AUTO_INCREMENT,
-)
+    shirts_size INT NOT NULL,
+    shirts_color VARCHAR(100) NOT NULL,
+    shirts_brand VARCHAR(100) NOT NULL,
+    date_last_worn VARCHAR(100) NOT NULL DEFAULT 'Newly ought',
+    PRIMARY KEY (shirts_id)
+);
 
 
 
