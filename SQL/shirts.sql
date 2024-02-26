@@ -35,3 +35,7 @@ SELECT * FROM shirts;
 -- insert using a single step
 INSERT INTO shirts(article, color, shirt_size, last_worn) VALUES('polo-shirt', 'purple', 'M', 50);
 
+-- SELECT ALL BUH PRINT ONLY ARTICLE AND COLOR
+
+SELECT article, color
+From shirts
