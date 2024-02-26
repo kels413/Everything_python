@@ -31,3 +31,5 @@ VALUES
 -- SELECT ALL DATABASE
 
 SELECT * FROM shirts
+
+-- insert using a single step
