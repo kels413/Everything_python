@@ -46,7 +46,12 @@ SELECT shirt_id
 FROM shirts
 WHERE shirt_size = 'M';
 
+-- update shirt size
 UPDATE shirts
 SET shirt_size = 'L'
 WHERE article = 'Polo shirt';
 
+-- update last worn
+UPDATE shirts
+SET last_worn = 0
+WHERE last_worn = 15
