@@ -75,3 +75,7 @@ WHERE article = 'tank top';
 
 DELETE shirts
 FROM shirts;
+
+-- drop shirts TABLE
+
+DROP TABLE shirts
