@@ -60,3 +60,7 @@ WHERE last_worn = 15
 UPDATE shirts
 SET shirt_size = 'x', color = 'off white'
 WHERE color = 'white'
+
+-- delete last worn = 200
+DELETE shirts FROM shirts
+WHERE last_worn = 200;
