@@ -55,3 +55,5 @@ WHERE article = 'Polo shirt';
 UPDATE shirts
 SET last_worn = 0
 WHERE last_worn = 15
+
+-- update all white shirt size
