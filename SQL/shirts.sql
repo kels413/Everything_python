@@ -28,3 +28,6 @@ VALUES
   ('tank top', 'blue', 'M', 15);
 
 
+-- SELECT ALL DATABASE
+
+SELECT * FROM shirts
