@@ -67,13 +67,13 @@ WHERE last_worn = 200;
 
 -- delete all shirts tank tops
 
-DELETE shirts
+DELETE
 FROM shirts 
 WHERE article = 'tank top';
 
 -- delete all shirts TABLE
 
-DELETE shirts
+DELETE
 FROM shirts;
 
 -- drop shirts TABLE
