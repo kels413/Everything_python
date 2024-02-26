@@ -70,3 +70,8 @@ WHERE last_worn = 200;
 DELETE shirts
 FROM shirts 
 WHERE article = 'tank top';
+
+-- delete all shirts TABLE
+
+DELETE shirts
+FROM shirts;
