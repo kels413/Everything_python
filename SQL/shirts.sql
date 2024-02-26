@@ -64,3 +64,9 @@ WHERE color = 'white'
 -- delete last worn = 200
 DELETE shirts FROM shirts
 WHERE last_worn = 200;
+
+-- delete all shirts tank tops
+
+DELETE shirts
+FROM shirts 
+WHERE article = 'tank top';
